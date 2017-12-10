@@ -20,3 +20,28 @@
       left: 0%; 
   }
 }
+
+
+@media screen and (min-width:768px){
+  .medium-image{
+      background-repeat: no-repeat;
+      overflow: hidden;
+      position: absolute;
+  }
+  .nigth-image{
+      background-image: url(../assets/images/night.jpg);
+      height: 615px;
+      background-size: cover;
+      width: 100%;
+      top: 0;
+  }
+  .kitten-medium{
+      background-image: url(../assets/images/kitten-small.png);
+      height: 300px;
+      top: 50%;
+      left: 30%;
+      width: 350px;
+  }
+}
+
+
