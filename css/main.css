@@ -2,6 +2,7 @@
   margin: 0;
 }
 
+/* Tamaño en small  */
 @media screen and (min-width: 480px){
   .small-image{
       background-repeat: no-repeat;
@@ -21,6 +22,7 @@
   }
 }
 
+/* Tamaño en medium */
 
 @media screen and (min-width:768px){
   .medium-image{
@@ -44,6 +46,7 @@
   }
 }
 
+/* Tamaño en large */
 
 @media screen and (min-width: 1024px){
   .large-image{
