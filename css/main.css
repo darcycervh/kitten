@@ -45,3 +45,26 @@
 }
 
 
+@media screen and (min-width: 1024px){
+  .large-image{
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+  }
+  .dawn-image{
+      background-image: url(../assets/images/sunny-day.jpg);
+      background-size: cover;
+      height: 715px;
+      width: 100%;
+      top: 0;
+  }
+  .kitten-large{
+      background-image: url(../assets/images/kitten-medium.png);
+      top: 40%;
+      height: 300px;
+      width: 500px;
+      position: absolute;
+      top: 55%;
+      left: 35%;
+  }
+}
