@@ -1,67 +1,63 @@
 *{
   margin: 0;
+  padding: 0;
 }
 
-/* Tamaño en small  */
-@media screen and (min-width: 480px){
-  .small-image{
-      background-repeat: no-repeat;
-  }
-  .sunny-day{
-      background-image: url(../assets/images/dawn.png);
-      width: 100%;
-      height: 480px;
-  }
-  .kitten-small{
-      background-image: url(../assets/images/kitten-large.png);
-      position: absolute;
-      top: 30%;
-      height:300px;
-      width: 100%; 
-      left: 0%; 
-  }
+/* Tamaño para móviles */
+
+.background{
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/dawn.png);
+    width: 100%;
+    height: 480px;
+}
+.kitten{
+    background-image: url(../assets/images/kitten-large.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 30%;
+    height:300px;
+    width: 100%;
+    left: 0%;
 }
 
-/* Tamaño en medium */
+
+/* Tamaño para Tablets */
 
 @media screen and (min-width:768px){
-  .medium-image{
+  .background{
       background-repeat: no-repeat;
-      overflow: hidden;
-      position: absolute;
-  }
-  .nigth-image{
       background-image: url(../assets/images/night.jpg);
       height: 615px;
       background-size: cover;
       width: 100%;
+      position: absolute;
       top: 0;
   }
-  .kitten-medium{
+  .kitten{
       background-image: url(../assets/images/kitten-small.png);
       height: 300px;
-      top: 50%;
-      left: 30%;
+      top: 25%;
+      left: 50%;
       width: 350px;
   }
 }
 
-/* Tamaño en large */
+/* Tamaño para Desktop*/
 
 @media screen and (min-width: 1024px){
-  .large-image{
+  .background{
       background-repeat: no-repeat;
       background-size: contain;
       position: absolute;
-  }
-  .dawn-image{
       background-image: url(../assets/images/sunny-day.jpg);
       background-size: cover;
       height: 715px;
       width: 100%;
       top: 0;
   }
-  .kitten-large{
+
+  .kitten{
       background-image: url(../assets/images/kitten-medium.png);
       top: 40%;
       height: 300px;
